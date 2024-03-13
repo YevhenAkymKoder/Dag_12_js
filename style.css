@@ -1,0 +1,41 @@
+body {
+    font: 2rem;
+    text-align: center;
+}
+
+/* JS light */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+/* JS dark */
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.button {
+    cursor: pointer;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+/* JS light button div */
+.lightMode {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+}
+/* JS dark button div */
+.darkMode {
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
