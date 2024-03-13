@@ -22,3 +22,14 @@ function themeBox(element) {
 }
 
 
+const colorSwitch = document.querySelector("#color");
+let darkMode = true;
+
+function themeSwitch() {
+    if (darkMode) {
+        colorSwitch.classList.add("darkMode");
+    } else {
+        colorSwitch.classList.remove("darkMode");
+    }
+    darkMode = !darkMode;
+}
